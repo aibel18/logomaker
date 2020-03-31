@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  height: 100vh;
+}
+#app, #app header, #app  article, #app footer{
+  overflow: hidden;
+}
+
+article{
+  margin-top: 64px;
+}
+
+.mdc-top-app-bar{
+  top: 0;
+  background-color: #0d47a1;
+}
+.back-header{
+  position: absolute;
+  width: 100%;
+  height: 278px;
+  display: block;
+  background-color: #0d47a1;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.title-header{
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.title-header h1{
+  color: #fff;
+}
